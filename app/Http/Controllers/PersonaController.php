@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Persona;
+use App\Models\Interes;
 use Illuminate\Http\Request;
 
 class PersonaController extends Controller
