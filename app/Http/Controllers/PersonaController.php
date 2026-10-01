@@ -22,7 +22,7 @@ class PersonaController extends Controller
     public function create()
     {
         $intereses = Interes::all();
-        return view('persona.create', compact('intereses'));
+        return view('personas.create', compact('intereses'));
     }
 
     /**

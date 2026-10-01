@@ -9,13 +9,7 @@
             <p class="text-gray-500 text-sm">Total de Personas</p>
             <p class="text-3xl font-bold mt-2">{{ $totalPersonas }}</p>
         </div>
-        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-500">
-            <p class="text-gray-500 text-sm">Total de Intereses</p>
-            <p class="text-3xl font-bold mt-2">{{ $totalIntereses }}</p>
-        </div>
-        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-500">
-            <p class="text-gray-500 text-sm">Total de Usuarios</p>
-            <p class="text-3xl font-bold mt-2">{{ $totalUsuarios }}</p>
-        </div>
+        {{-- Mismo patrón de tarjeta para "Intereses" --}}
+        {{-- (border-green-500) y "Usuarios" (border-purple-500) --}}
     </div>
 @endsection

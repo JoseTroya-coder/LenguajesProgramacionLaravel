@@ -20,7 +20,7 @@ class InteresController extends Controller
      */
     public function create()
     {
-        return view('interes.create');
+        return view('intereses.create');
     }
 
     /**
